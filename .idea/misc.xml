@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/audio_button_bg.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/ic_play.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/ic_rewind.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/nav_bar_bg.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/nav_bar_selector.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/nav_bar_slelector.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/drawable/seek_bar_selector.xml" value="0.3614583333333333" />
+        <entry key="app/src/main/res/layout/activity_audio.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2749094202898551" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/audio_fragment.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/vide_fragment.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/video_fragment.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

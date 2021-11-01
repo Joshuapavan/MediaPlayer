@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/main"
+    tools:context=".audio_Fragment">
+
+    <TextView
+        android:id="@+id/currentSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/audio"
+        android:src="@drawable/ic_audio"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="430dp">
+
+        <TextView
+            android:id="@+id/player_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="@string/zeros"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:progressTint="@drawable/seek_bar_selector"
+            android:thumbTint="@drawable/seek_bar_selector"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/player_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:text="@string/zeros"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="360dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/bt_rew"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/audio_button_bg"
+            android:src="@drawable/ic_rewind" />
+
+        <ImageView
+            android:id="@+id/bt_play"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/audio_button_bg"
+            android:src="@xml/ic_play" />
+
+        <ImageView
+            android:id="@+id/bt_pause"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_pause"
+            android:background="@drawable/audio_button_bg"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/bt_ff"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/audio_button_bg"
+            android:src="@drawable/ic_forward"/>
+
+    </LinearLayout>
+</LinearLayout>
